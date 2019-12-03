@@ -1,0 +1,38 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+html {
+  background-color: #320000;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #4A0101;
+  padding-top: 50px;
+  .style {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 60px;
+  text-align: center;
+  color: #320000
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+a:hover {
+  color: blue;
+}
+p, ul {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}

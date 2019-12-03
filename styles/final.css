@@ -1,0 +1,248 @@
+
+
+/*div.bridgepanel {
+  background-image: url("goodbridge.jpg");
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  justify-content: center;
+  display:block;
+  */
+
+
+
+
+body {
+      font-family: 'Bebas Neue';font-size: 22px;
+  }
+
+div.headpic {
+  position: relative;
+}
+
+nav.navbar-fixed-top {
+  background-color: #333;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+
+div.sticky a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+div.sticky a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+div.sticky a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1.hometitle {
+  position: absolute;
+  font-size: 65px;
+  text-align: right;
+  bottom: 8px;
+  right: 18px;
+}
+
+/*div a.about {
+  float: right;
+}*/
+
+div.intro{
+    background-color: #c92626;
+    font-size: 20px;
+}
+
+
+  img.blackandwhitebridge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    opacity: 0.3;
+  }
+
+div.headpic {
+  margin: none;
+}
+
+div.contrast {
+  background-color: rgb(200,200,200);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button.user {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+/*
+ul.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  float:left;
+  margin: 10;
+  padding: inherit;
+  width: 100%;
+  background-color: #3d3d3d;
+}
+
+li a {
+  color: white;
+  padding: 16px;
+  float:left;
+  border-right: 1px solid #bbb;
+}
+
+
+li a:hover {
+  background-color: yellow;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+*/
+div.intro {
+  width: auto;
+  border: 5px solid white;
+  padding: 20px;
+  margin: 20px;
+}
+
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+div.container {
+  text-align: left;
+
+}
+
+div.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p.testimonials {
+  font-size: 20px;
+  text-align: center;
+
+}
+div.quote {
+  background-color: orange;
+  margin: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+/* Add an orange color to all icons and set the font-size */
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
